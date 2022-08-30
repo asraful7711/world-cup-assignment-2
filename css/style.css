@@ -202,6 +202,9 @@ hr{
     color: #FFFFFF;
     font-size: 30px;
 }
+.social-icon a{
+    color: #FFFFFF;
+}
 .social-icon i:hover{
     opacity: 0.5;
     transition: ease-in .2s;
