@@ -14,10 +14,9 @@ body{
 .banner-container{
     display: flex;
     color: white;
-    position: absolute;
     justify-content: space-between;
     background-color: #161616;
-    margin: 50px 140px 130px 140px;
+    margin:5% ;
     border-radius: 30px;
 }
 .half-banner{
@@ -54,6 +53,93 @@ body{
     height: 100%;
     
 }
+
+/* ------------
+banner part end
+ --------- */
+
+
+ /* main container part 
+ ------------------- */
+
+ .main-container {
+    display: grid;
+    grid-template-columns: 312px repeat(1 ,1fr);
+    margin: 5%;
+    grid-gap: 20px;
+ }
+
+ /* .navigation styles */
+.navigation{
+    text-align: center;
+    background-color: #161616;
+    padding:30px 30px 10px 30px;
+    border-radius: 10px;
+}
+.navigation a{
+    text-decoration: none;
+    color: #161616 ;
+    font-weight: 500;
+    font-size: 20px;
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 17px 0px;
+    width: 252px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+#blog-button{
+    background-color: #DD0000;
+    color: #FFFFFF;
+}
+.navigation a:hover{
+    color: #FFFFFF;
+    background-color: #DD0000;
+    opacity: 0.8;
+    transition: ease-out .2s;
+}
+
+/* blogs styles */
+
+.blog{
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+}
+.blog-detail{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding:0px 10px;
+}
+.blog-detail a{
+    color: #161616;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+    padding:4px 16px;
+    margin-bottom:20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.blog-detail a:hover{
+    background-color: #DD0000;
+    color: #FFFFFF;
+    border: 1px solid white;
+    transition: ease-out .2s;
+}
+.blog-detail p{
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.blog-detail span{
+    margin: 0px 10px;
+}
+
+
+
+
 
 
 /* responsive for mobile 
